@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GeoNav</title>		
+      <meta name="description" content="საქართველოს კურორტები">
+      <meta name="keywords" content="საქართველო, კურორტი, კურორტები საქართველოში, Geo, Nav, GeoNav">
+      <meta name="author" content="Tamazi Tigishvili">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta property="og:title" content="საქართველოს კურორტები" />
+      <meta property="og:description" content="Buy tickets for cheapist price" />
+       <link rel="icon" href="images/logo1.png" type="image/icon type" />
+      <meta property="og:image" content="images/logo1.png" />
+      <link rel="stylesheet" href="css/login1.css">
+      <link rel="stylesheet" href="css/responsive.css">
+   </head>
+   <body onload="document.registration.userid.focus();">
+      <div class="video">
+         <video autoplay loop muted playes-inline class="back-video">
+             <source src="Images/production ID_4517394.mp4">
+         </video>
+       </div>
+         <div class="logo-div">
+            <a href="index.html"><img  class="logo-image" src="images/logo1.png" style="border-radius: 90px;" alt="logo"></a>
+         </div>
+      <div class="wrapper">
+         <form name='registration' onSubmit="return formValidation();">
+            <h1>Registration Form</h1>
+            <ul>
+               <div class="names-wrapper">
+                  <li  class="label-span span1"><label for="username">Service code:</label></li>
+                  <li  class="label-span span2"><label  for="passid">Password:</label></li>
+                  <li class="label-span span3"><label  for="userid" style="border: none;">Full name:</label></li>
+                  <li class="label-span span4"><label  for="address">Address:</label></li>
+                  <li class="label-span span5"><label  for="country">Country:</label></li>
+                  <li class="label-span span7"><label  for="zip">Card Code:</label></li>
+                  <li  class="label-span span6"><label for="email">Email:</label></li>
+                  <li class="label-span span8"><label  id="gender">Sex:</label></li>
+                
+               
+               </div>
+               <div class="forms-wrapper">
+                  <li><input type="text" name="userid" size="12"  style="width: 350px;"></li>
+                  <li><input type="password" name="passid" size="12"style="width: 350px;" /></li>
+                  <li><input type="text" name="username" size="50" style="width: 350px;"/></li>
+                  <li><input type="text" name="address" size="50" style="width: 350px;"/></li>
+                  <li>
+                     <select name="country">
+                        <option selected="" value="Default">(Where you from?)</option>
+                        <option value="AF">Afghanistan</option>
+                        <option value="AX">Aland Islands</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                     </select>
+                  </li>
+                  <li><input type="text" name="zip" /></li>
+                  <li><input type="text" name="email" size="50" /></li>
+                  <li><input type="radio" name="radio" value="Male" /><span>Male</span></li>
+                  <li><input type="radio" name="radio" value="Female" /><span>Female</span></li> 
+                  <li><input type="submit" name="submit" value="Submit" class="button" /></li>
+               </div>
+            </ul>
+         </form>
+      </div>
+      <script src="js/validation.js"></script>
+   </body>
+</html>

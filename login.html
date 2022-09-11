@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoNav</title>		
+    <meta name="description" content="საქართველოს კურორტები">
+    <meta name="keywords" content="საქართველო, კურორტი, კურორტები საქართველოში, Geo, Nav, GeoNav">
+    <meta name="author" content="Tamazi Tigishvili">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="საქართველოს კურორტები" />
+    <meta property="og:description" content="Buy tickets for cheapist price" />
+  	<link rel="icon" href="images/logo1.png" type="image/icon type" />
+    <meta property="og:image" content="images/logo1.png" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+   
+  </head>
+  <body onload="document.registration.userid.focus();">
+    <header class="clearHeader">
+      <div class="wrapper">
+         <nav class="navigation">
+            <ul id="menu" class="nav menu-ul">
+               <li>
+                  <a class="nav-a" href="index.html"><span>< </span>Back</a>
+               </li> 
+            </ul>
+         </nav>
+   </header>
+    <section class="login">
+      
+  <div class="wrapper">
+    <form name='registration' onSubmit="return formValidation();">
+       <ul>
+          <li><label type="username" for="uname" style="border: none;">Username:</label></li>
+          <li><input type="text" name="uname" size="12" /></li>
+          <li><label type="password" name="password" id="password" for="password" required="required">Password:</label></li>
+          <li><input type="password" name="confirm_password" id="confirm_password" required="required" size="12" /></li>
+          <div class="reppass">
+            <div class="password-field">
+          <li><label class="label" for="passw2" >Confirm Password</label></li>
+          <li><input type="password" id="showpassword" name="mypassword" size="50" /></li>
+          <i class="fa-solid fa-eye iconfa" id="toggleIcon"></i>
+          
+            
+      </div>
+        <div class="error-text" id="error_password2"></div>
+      
+    
+    <div class="email">
+          <li><label for="email">Email:</label></li>
+          <li><input type="text" name="email" size="50" /></li>
+          </div>
+          <div class="gender">
+            <div>
+              <input type="radio" name="gender" />
+              <label for="">:Male</label>
+              <input type="radio" name="gender" />
+              <label for="">:Famale</label>
+              <div class="error-text" id="error_gender"></div>
+            </div>
+          </div>
+          <div class="agreement">
+            <div>
+              <input type="checkbox" name="agree" id="agree" />
+              <label for="">I agree terms and conditions</label>
+              <div class="error-text" id="error_agree"></div>
+            </div>
+          </div>
+          <div class="butt">
+          <li><input class="button" type="submit" name="submit" /></li>
+        </div>
+      </div>
+       </ul>
+    </form>
+ </div>
+</section>
+    <script src="js/validation.js"></script>
+  </body>
+</html>
+
+
+
+
+ 
+

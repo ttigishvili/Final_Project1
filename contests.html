@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoNav</title>		
+    <meta name="description" content="საქართველოს კურორტები">
+    <meta name="keywords" content="საქართველო, კურორტი, კურორტები საქართველოში, Geo, Nav, GeoNav">
+    <meta name="author" content="Tamazi Tigishvili">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta property="og:title" content="საქართველოს კურორტები" />
+    <meta property="og:description" content="Buy tickets for cheapist price" />
+  	<link rel="icon" href="images/logo1.png" type="image/icon type" />
+    <meta property="og:image" content="images/logo1.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/more1.css">
+    <link rel="stylesheet" href="css/owl.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+  </head>
+
+<body>
+
+  
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                  
+                      <a href="index.html" class="logo">
+                        <img src="images/My project-1 (2).png" alt="logo">
+                      </a>
+                    
+                      <ul class="nav">
+                          <li><a href="index.html">Home</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)" class="active">Contests</a>
+                              <ul class="sub-menu">
+                                  <li><a href="contests.html">Contests</a></li>
+                                  
+                              </ul>
+                          </li>
+                          <li><a href="categories.html">Categories</a></li>
+                          <li><a href="users.html">Guide</a></li>
+                      </ul>   
+                      <div class="border-button">
+                        <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
+                      </div>
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                    
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+    
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Connect with Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Connect with Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Or use your Email address</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+            </div>
+        </div>
+
+       
+        <div class="user_login">
+            <form action="" method="post">
+                <label>Email / Username</label>
+                <input name="username" type="text" id="username" />
+              <br />
+
+                <label>Password</label>
+                <input name="password" type="password" id="password" />
+              <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Login</button></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        
+        <div class="user_register">
+            <form action="" method="post">
+                <label>Username</label>
+                <input name="username" type="text" id="username" />
+                <br />
+
+                <label>Email Address</label>
+                <input name="email" type="email" id="email" />
+                <br />
+
+                <label>Password</label>
+                <input name="password" type="password" id="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><button type="submit" class="btn btn_red">Register</button></div>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+  </div>
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 header-text">
+          <h2>Discover what's currently going on at <em>GeoNav</em></h2>
+          <p>Our company is one of the most famous throughout the country. We offer our customers high quality and good service. In our resort services, we have several packages that you can choose and purchase yourself. Cheap prices are our slogan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-4">
+                <fieldset>
+                    <label for="contest" class="form-label">Search Any Contest</label>
+                    <input type="text" name="contest" class="searchText" placeholder="Contest Name..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4">
+                <fieldset>
+                    <label for="category" class="form-label">Pick Category</label>
+                    <select name="category" class="form-select" aria-label="Choose a category" id="category" onchange="this.form.click()">
+                        <option selected>Choose a category</option>
+                        <option type="checkbox" name="Nature" value="Nature">Animals</option>
+                        <option value="Portrait">Reserve</option>
+                        <option value="Space">Resort</option>
+                    </select>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">
+                <fieldset>
+                    <label for="chooseprice" class="form-label">Award Price</label>
+                    <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                        <option selected>Choose a price</option>
+                        <option value="200">₾200 to ₾500</option>
+                        <option value="500">₾500 to ₾1000</option>
+                        <option value="1000">₾1000 to ₾1500</option>
+                        <option value="3500+">₾2000+</option>
+                    </select>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">                        
+                <fieldset>
+                    <button class="main-button">Search Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="photos-videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading text-center">
+            <h6>Photos &amp; Videos At GeoNav</h6>
+            <h4>Our Featured <em>Photos &amp; Videos</em> GeoNav</h4>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item">
+            <div class="thumb">
+              <img src="images/bakuriani.jpg" alt="">
+              <div class="top-content">
+                <h4>Bakruiani</h4>
+                <h6><i class="fa fa-eye"></i> 840 | <i class="fa fa-heart"></i> 160</h6>
+              </div>
+            </div>
+            <div class="down-content">
+              <div class="row">
+                <div class="col-7">
+                  <h2>Ranked: 1st</h2>
+                </div>
+                <div class="col-5">
+                  <h6>Category: Photos</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item">
+            <div class="thumb">
+              <img src="images/batumi.jpg" alt="">
+              <div class="play-button">
+                <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+              </div>
+              <div class="top-content">
+                <h4>Batumi</h4>
+                <h6><i class="fa fa-eye"></i> 1722 | <i class="fa fa-heart"></i> 320</h6>
+              </div>
+            </div>
+            <div class="down-content">
+              <div class="row">
+                <div class="col-7">
+                  <h2>Ranked: 2nd</h2>
+                </div>
+                <div class="col-5">
+                  <h6>Category: Videos</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="images/gudaurii.jpg" alt="">
+              <div class="top-content">
+                <h4>Gudauri</h4>
+                <h6><i class="fa fa-eye"></i> 1436 | <i class="fa fa-heart"></i> 256</h6>
+              </div>
+            </div>
+            <div class="down-content">
+              <div class="row">
+                <div class="col-7">
+                  <h2>Ranked: 3rd</h2>
+                </div>
+                <div class="col-5">
+                  <h6>Category: Photos</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="images/kobuleti.jpg" alt="">
+              <div class="play-button">
+                <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+              </div>
+              <div class="top-content">
+                <h4>Kobuleti</h4>
+                <h6><i class="fa fa-eye"></i> 1596 | <i class="fa fa-heart"></i> 512</h6>
+              </div>
+            </div>
+            <div class="down-content">
+              <div class="row">
+                <div class="col-7">
+                  <h2>Ranked: 4th</h2>
+                </div>
+                <div class="col-5">
+                  <h6>Category: Videos</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item">
+            <div class="thumb">
+              <img src="images/sairme.jpg" alt="">
+              <div class="top-content">
+                <h4>Sairme</h4>
+                <h6><i class="fa fa-eye"></i> 1596 | <i class="fa fa-heart"></i> 768</h6>
+              </div>
+            </div>
+            <div class="down-content">
+              <div class="row">
+                <div class="col-7">
+                  <h2>Ranked: 5th</h2>
+                </div>
+                <div class="col-5">
+                  <h6>Category: Random</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2022  Photo Contest Co., Ltd. All rights reserved. 
+          
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="js/isotope.min.js"></script>
+  <script src="js/owl-carousel.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/custom.js"></script>
+
+  </body>
+</html>
